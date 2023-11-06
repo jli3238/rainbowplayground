@@ -103,7 +103,7 @@ div.add-card button {
   border: solid 1px gray !important;
   box-shadow: 5px 5px #888888;
   margin: 0 0 24px 4px;
-  padding: 0 16px 8px 8px;
+  padding: 0 16px 8px 16px;
   border-radius: 5px 25px;
 }
 
