@@ -1,0 +1,38 @@
+.app-kanban {
+  text-align: center;
+  display: flex;
+};
+
+.board .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.board .cell {
+  border: solid 1px black;
+  margin: 2px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.toast-display-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 60vh;
+  align-items: center;
+}
+
+.toast-wrapper {
+  position: absolute;
+  bottom: 0px;
+}
+
+.section-body .toast-remove {
+  color: cadetblue;
+}
+
+svg:hover {
+  color: orange;
+}

@@ -1,0 +1,31 @@
+div .board {
+  display: flex;
+}
+div .board .column {
+  flex-grow: 1;
+  margin: 0 15px;
+  padding: 0 15px;
+  text-align: center;
+  height: 75vh;
+}
+div .board .column .column-body {
+  padding-top: 10px;
+  margin-top: 10px;
+  background-color: cadetblue;
+  height: 55vh;
+}
+div .board .column .card {
+  background-color: white;
+  margin: 10px 20px;
+  padding: 10px;
+  color: black;
+}
+div.winner {
+  display: flex;
+  flex-direction: row;
+}
+div.winnerResult {
+  margin-left: 4px;
+}
+
+
