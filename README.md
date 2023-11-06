@@ -2,6 +2,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It provides a colorful playground to demonstrate some fun stuff created by React. It is mobile device friendly.
 | Owner                                     |
 | [Jiahong Liu](mailto:jli3238@gmail.com)   |
+## Developed on
+>node v14.16.0
+>npm 6.14.11
 
 # How to run Rainbow Playground project?
 ```sh
