@@ -100,6 +100,11 @@ function App() {
         <Route path="/Counter" component={Counter} />
         <Route path="/DecimalToHexadecimal" component={DecimalToHexadecimal} />
         <Route path="/ES6Promise" component={ES6Promise} />
+        <Route path="/GetAllPermutationOfAString" component={GetAllPermutationOfAString} />
+        <Route path="/GetAllNodeIdsFromAnAPIReturningJSONData" component={GetAllNodeIdsFromAnAPIReturningJSONData} />
+        <Route path="/GetFirstUniqueStringInAnArray" component={GetFirstUniqueStringInAnArray} />
+        <Route path="/GetMostPopularNameInAnArray" component={GetMostPopularNameInAnArray} />
+        <Route path="/GetSmallestPositiveIntegerNotInArray" component={GetSmallestPositiveIntegerNotInArray} />
         <Route path="/HammingDistance" component={HammingDistance} />
         <Route path="/LeastPositiveNumberNotInArray" component={LeastPositiveNumberNotInArray} />
         <Route path="/MinimumNumberOfGates" component={MinimumNumberOfGates} />
@@ -109,13 +114,8 @@ function App() {
         <Route path="/PrimeNumberCheck" component={PrimeNumberCheck} />
         <Route path="/RandomColor" component={RandomColor} />
         <Route path="/RotationOfArray" component={RotationOfArray} />
-        <Route path="/GetFirstUniqueStringInAnArray" component={GetFirstUniqueStringInAnArray} />
-        <Route path="/GetAllPermutationOfAString" component={GetAllPermutationOfAString} />
-        <Route path="/GetAllNodeIdsFromAnAPIReturningJSONData" component={GetAllNodeIdsFromAnAPIReturningJSONData} />
-        <Route path="/GetMostPopularNameInAnArray" component={GetMostPopularNameInAnArray} />
-        <Route path="/TicTacToe" component={TicTacToe} />
         <Route path="/ShowToast" component={ShowToast} />
-        <Route path="/GetSmallestPositiveIntegerNotInArray" component={GetSmallestPositiveIntegerNotInArray} />
+        <Route path="/TicTacToe" component={TicTacToe} />
         <Route path="/" component={KanbanDND} />
       </Switch>
     </div>

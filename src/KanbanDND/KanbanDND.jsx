@@ -33,7 +33,7 @@ const KanbanDND = () => {
     setNewCardName('');
   }
   return (
-    <div className="App">
+    <div className="section">
       <div className='section-title'>Kanban with Drag-n-Drop</div>
       <main className='board'>
         { columns.map(column =>

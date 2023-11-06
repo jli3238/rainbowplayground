@@ -20,14 +20,14 @@ const ShowToast = () => {
   }
 
   return (
-      <div className='toast-display-container'>
+      <div className='section'>
         <PageContainer 
             title='Show Toast'
-            description='Show toast messages, latest on top'
+            description='Show toast messages from bottom up, latest on top'
             plainbackground={true} >
             <div className='toast-display-container'>
                 <div>
-                    <input type="text" value={userInput} onChange={handleChange}/>
+                    <input type="text" placeholder="Enter a message here" value={userInput} onChange={handleChange}/>
                     <button onClick={handleClick} >Show toast</button>
                 </div>
                 <div className='toast-wrapper'>

@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter  basename="/rainbowplayground" >
+    <BrowserRouter>
       <App/>
     </BrowserRouter>
   </React.StrictMode>,

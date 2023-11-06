@@ -24,7 +24,7 @@ const Palindrome = () => {
         plainbackground={true} >    
         <div>
             <label>{"Enter a sentence here: "}</label>
-            <input type="text" value={sentenceForPalindromeCheck} onChange={e=>handlePalindromeSentenceChange(e)}/>
+            <input type="text" placeholder="Enter a sentence here" value={sentenceForPalindromeCheck} onChange={e=>handlePalindromeSentenceChange(e)}/>
         </div>
     </PageContainer>)
 }

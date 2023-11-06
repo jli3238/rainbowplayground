@@ -34,7 +34,7 @@ const MostFrequentChar = () => {
         plainbackground={true} >
         <div>
             <label>Enter a string: </label>
-            <input type="text" value={sentenceForMostOftenCharCheck} onChange={e=>handleSentenceForMostOftenCharChange(e)}/>
+            <input type="text" placeholder="Enter a string" value={sentenceForMostOftenCharCheck} onChange={e=>handleSentenceForMostOftenCharChange(e)}/>
         </div>
         <span>
             <label>{`The character${getMostOftenChar()[0].length > 1 ? 's' : ''} that appear${getMostOftenChar()[0].length > 1 ? '' : 's'} most often ${getMostOftenChar()[0].length > 1 ? 'are' : 'is'}: `}</label>

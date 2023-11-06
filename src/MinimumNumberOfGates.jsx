@@ -40,11 +40,11 @@ const MinimumNumberOfGates = () => {
         <div>
             <div>
                 <label>{"Enter Arrivals [hh:mm, hh:mm, ...]: "}</label>
-                <input className="flight-times" type="text" ref={arrInput}/>
+                <input className="flight-times" placeholder="Enter Arrivals" type="text" ref={arrInput}/>
             </div>
             <div>
                 <label>{"Enter Departures [hh:mm, hh:mm, ...]: "}</label>
-                <input className="flight-times" type="text" ref={deptInput}/>
+                <input className="flight-times" placeholder="Enter Departures" type="text" ref={deptInput}/>
             </div>
             <button onClick={calculateMaxNumberOfGates}>Calculate Max Number of Gates</button>
         </div>

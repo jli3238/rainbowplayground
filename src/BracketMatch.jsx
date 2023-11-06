@@ -34,7 +34,7 @@ const BracketMatch = () => {
             plainbackground={true}  >
             <div>
                 <label>Enter a bracket-only string: </label>
-                <input type="text" value={bracketString} onChange={e=>handleBracketStringChange(e)}/>
+                <input type="text" value={bracketString} placeholder="Enter a bracket-only string" onChange={e=>handleBracketStringChange(e)}/>
             </div>
         </PageContainer>)
 }
